@@ -5,7 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './shopping-list.component.html',
   styleUrls: ['./shopping-list.component.sass']
 })
+
 export class ShoppingListComponent implements OnInit {
+  ingredients = [];
 
   constructor() { }
 
