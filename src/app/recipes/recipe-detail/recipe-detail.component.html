@@ -20,7 +20,11 @@
         Manage Recipe
       </button>
       <div appDropdownMenu class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-        <a class="dropdown-item" href="#">To Shopping list</a>
+        <a
+          class="dropdown-item"
+          (click)="onAddToShoppingList()"
+          style="cursor: pointer;"
+        >To Shopping list</a>
         <a class="dropdown-item" href="#">Edit recipe</a>
         <a class="dropdown-item" href="#">Delete recipe</a>
       </div>
