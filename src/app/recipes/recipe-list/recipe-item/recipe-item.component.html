@@ -1,6 +1,7 @@
 <a
   class="list-group-item list-group-item-action"
-  (click)="onSelected()"
+  [routerLink]="[this.index]"
+  routerLinkActive="active"
 >
   <div class="d-flex flex-row w-100 justify-content-between">
     <div class="d-flex flex-column">
