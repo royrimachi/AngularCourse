@@ -20,8 +20,19 @@
             Manage
           </a>
           <div appDropdownMenu class="dropdown-menu" aria-labelledby="manageDropdown">
-            <a class="dropdown-item" role="button">Save Data</a>
-            <a class="dropdown-item" role="button">Fetch Data</a>
+            <a 
+              class="dropdown-item" 
+              role="button"
+              (click)="onSaveData()"
+            >
+              Save Data
+            </a>
+            <a 
+              class="dropdown-item" 
+              role="button"
+            >
+              Fetch Data
+            </a>
           </div>
         </li>
       </ul>
